@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kogarashi | Servicios</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="Images/kogarashi-logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!--Menú Navegación - Inicio-->
+    <header>
+        <div class="logo">
+            <h1><a href="index.html">KOGARASHI</a></h1>
+        </div>
+        <nav>
+            <ul class="navs">
+                <li><a class="navs" href="index.html">Home</a></li>
+                <li><a class="navs" href="quienes.html">Quienes Somos</a></li>
+                <li><a class="navs" href="productos.html">Productos</a></li>
+                <li><a class="navs" href="servicios.html">Servicios</a></li>
+                <button class="boton"><a href="contacto.html">Contacto</a></button>
+            </ul>
+        </nav>
+    </header>
+    <!--Menú Navegación - Final-->
+
+    <!--Imagen de fondo - Inicio-->
+    <section class="img-banner">
+        <div class="welcom">
+            <h1 class="animate__animated animate__bounceInUp">SERVICIOS</h1>
+            <hr />
+            <p class="animate__animated animate__bounceInUp">KOGARASHI</p>
+            <button class="animate__animated animate__bounceInUp" id="abajo"><a
+                    href="contacto.html">CONTACTO</a></button>
+        </div>
+    </section>
+    <!--Imagen de fondo - Final-->
+
+    <!--Mapas - Inicio-->
+    <div class="titulo-main">
+        <h1>No te pierdas los productos<span> más buscados y vendidos</span></h1>
+        <hr class="separacion">
+    </div>
+
+    <div class="contenedor-mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13419.9628420432!2d-79.17227232490202!3d-0.25494205394487557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1661470960843!5m2!1ses!2sec"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!--Mapas - Final-->
+
+    <div class="servicio-entrega">
+        <div class="informacion-entrega">
+            <h2>Información para entrega de productos</h2>
+            <h4>kogarashi_enterprise@gmail.com</h4>
+            <h4>(+593) 96 721 3611</h4>
+        </div>
+        <div class="datos-entrega">
+            <div class="group">
+                <input required="" type="text" class="input">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Nombre </label>
+            </div>
+            <br><br>
+            <div class="group">
+                <input required="" type="text" class="input">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Télefono </label>
+            </div>
+            <br><br>
+            <div class="group">
+                <input required="" type="text" class="input">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Correo </label>
+            </div>
+            <br><br>
+            <div class="group">
+                <input required="" type="text" class="input">
+                <span class="highlight"></span>
+                <span class="bar"></span>
+                <label>Ciudad </label>
+            </div>
+            <br><br>
+            <button onclick="enviar()" class="boton-enviar">
+                <div class="svg-wrapper-1">
+                    <div class="svg-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor"
+                                d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <span>Enviar</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="whatsapp">
+        <div class="titulo-main">
+            <h1>Servicio de entrega <span>personalizado</span></h1>
+            <hr class="separacion">
+        </div>
+        <button id="whatsapp-btn" class="boton2"><a
+                href="https://api.whatsapp.com/send?phone=593963358642&text=%C2%A1Hola%20Kogarashi!%20Me%20gustar%C3%ADa%20adquirir%20algunos%20de%20sus%20productos." target="_blank">Consulte aquí</a></button>
+    </div>
+
+    <!--Pie de página - Inicio-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure><a href="index.html"><img id="img-logo" src="Images/logo-arrupi.jpg" alt="impacto"></a></figure>
+            </div>
+            <div class="box">
+                <h2 class="titulo-pie">SOBRE NOSOTROS</h2>
+                <p>Kogarashi es un sitio web de importación y adquisiciones de figuras de animes, mangas y video juegos
+                    donde llevamos tu compra hasta tu casa. ¡Trabajamos para darte grandes momentos de diversión!</p>
+                <p><b>kogarashi_enterprise@gmail.com</b></p>
+            </div>
+            <div class="box">
+                <h2 class="titulo-pie">SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://es-la.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2022 <b>KOGARASHI</b> - Todos los derechos reservados</small>
+        </div>
+    </footer>
+    <!--Pie de página - Final-->
+
+    <!--Script para iconos footer-->
+    <script src="https://kit.fontawesome.com/61dcff7e87.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <!--Chat bot-->
+    <script src="//code.tidio.co/ibkkbwnepz2kxozictjr19wgi1srddoa.js" async></script>
+    <!--Alertas-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
